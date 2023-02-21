@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="buttonstyle.css">
+    <title>Shuffle Name</title>
+  </head>
+  <body>
+    <header>
+      <h1>Shuffle Names</h1>
+    </header>
+    <div>
+        <h2>Klasse WD 23 D02 </h2>
+    <p>Klicke auf den Button, um eine zufällige Person auszuwählen:</p>
+    <button onclick="wählePerson()">Push</button>
+    <p>Die ausgewählte Person ist:</p>
+    <p id="ausgewähltePerson"></p>
+    
+    <script>
+      function wählePerson() {
+        var personen = ["Alper", "Albert", "Frank", "Fredy","Hanna","Ihor","Kai","Kim", "Kristin", "Manuel"," Michelle", "Halid", "Ömer", "Sebastian", "Valeri", "Yahya", "Zizi", "Baris", "David", "Andreea"];
+        var index = Math.floor(Math.random() * personen.length);
+        var ausgewähltePerson = personen[index];
+        document.getElementById("ausgewähltePerson").textContent = ausgewähltePerson;
+      }
+    </script>
+    </div>
+  </body>
+</html>
