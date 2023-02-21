@@ -28,12 +28,13 @@ background: radial-gradient(circle, rgba(62,247,238,1) 0%, rgba(207,255,250,1) 4
   /* border: 50%; */
   /* width: 50%; */
   border-radius: 20%;
-  border-style: solid;
+  /* border-style: solid; */
   border-color: black;
   /* margin: 20%; */
   /* padding: 20%; */
   font-family: fantasy;
   margin-bottom: 100px;
+  box-shadow: 5px 5px 5px 2px black;
   
 }
 
@@ -53,10 +54,12 @@ button {
   border-radius: 5px;
   cursor: pointer;
   margin-top: 40px;
+  box-shadow: 5px 5px 5px 2px black;
 }
 
 button:hover {
   background-color: #0056b3;
+  
 }
 
 #ausgewähltePerson {
@@ -75,8 +78,9 @@ background: linear-gradient(0deg, rgba(62,247,238,1) 0%, rgba(207,255,250,1) 47%
   justify-content: center;
   align-items: center;
   border-radius: 25%;
-  border-style: outset;
+  /* border-style: outset; */
   border-color:black;
+  box-shadow: 5px 5px 5px 2px black;
   /* border: 50%; */
   /* margin: 50%; */
 }
