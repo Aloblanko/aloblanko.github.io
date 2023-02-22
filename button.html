@@ -23,7 +23,7 @@
     <div class="foreground">
         <h2>Wingardium Deviosa </h2>
     <p>Klicke auf den Button "PUSH ME", um eine zufällige Person auszuwählen:</p>
-    <p>Klicke auf den Button "Reload", um die Seite neu zu laden</p>
+    <p>Klicke auf den Button "Reload", um die Seite neu zu laden:</p>
     <button id="reload-btn" type="button">Reload</button>
 
     <script>
@@ -33,12 +33,12 @@
       });
     </script>
     <button onclick="wählePerson()">PUSH ME</button>
-    <p>Die ausgewählte Person ist:</p>
-    <p id="ausgewähltePerson">???</p>
-    
+    <br> Die ausgewählte Person ist: </br>
+    <p id="ausgewähltePerson"></p>
+    <br>
     <script>
       function wählePerson() {
-        var personen = ["Alper", "Albert", "Frank", "Fredy","Hanna","Ihor","Kai","Kim", "Kristin", "Manuel"," Michelle", "Halid", "Ömer", "Sebastian", "Valeri", "Yahya", "Zizi", "Baris", "David", "Andreea"];
+        var personen = ["Alper", "Albert", "Frank", "Fredy","Hanna","Ihor","Kai","Kim", "Ezzulddin", "Manuel"," Michelle", "Halid", "Ömer", "Sebastian", "Valeri", "Yahya", "Zizi", "Baris", "David", "Andreea"];
         var index = Math.floor(Math.random() * personen.length);
         var ausgewähltePerson = personen[index];
         document.getElementById("ausgewähltePerson").textContent = ausgewähltePerson;
