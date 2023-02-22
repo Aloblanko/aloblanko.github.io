@@ -22,10 +22,19 @@
 
     <div class="foreground">
         <h2>Wingardium Deviosa </h2>
-    <p>Klicke auf den Button, um eine zufällige Person auszuwählen:</p>
+    <p>Klicke auf den Button "PUSH ME", um eine zufällige Person auszuwählen:</p>
+    <p>Klicke auf den Button "Reload", um die Seite neu zu laden</p>
+    <button id="reload-btn" type="button">Reload</button>
+
+    <script>
+      const reloadBtn = document.getElementById("reload-btn");
+      reloadBtn.addEventListener("click", function() {
+        location.reload();
+      });
+    </script>
     <button onclick="wählePerson()">PUSH ME</button>
     <p>Die ausgewählte Person ist:</p>
-    <p id="ausgewähltePerson"></p>
+    <p id="ausgewähltePerson">???</p>
     
     <script>
       function wählePerson() {
@@ -35,6 +44,7 @@
         document.getElementById("ausgewähltePerson").textContent = ausgewähltePerson;
       }
     </script>
+    
     </div>
     
   </main>

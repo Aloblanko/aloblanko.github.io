@@ -24,6 +24,7 @@ h1 {
   font-size: 300%;
   border-radius: 20%;
   border-color: black;
+  border-style:double;
   font-family: fantasy;
   padding: 14px;
   margin-bottom: 70px;
@@ -60,11 +61,11 @@ button:hover {
   text-align: center;
   font-family: fantasy;
   margin: 20px;
-  color: red;
+  color: #0056b3;
   border-radius: 33%;
   padding-left: 1%;
   padding-right: 1%;
-  background-color: rgb(250, 228, 101);
+  /* background-color: rgb(250, 228, 101); */
 }
 
 div {
@@ -93,10 +94,12 @@ canvas {
  .foreground {
   position: relative;
   z-index: 1; 
-  top: 140px;
+  top: 100px; 
   
-
-  
+}
+#reload-btn {
+   color: black;
+  background-color: aqua;
   
 }
 /* 
