@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ h1 {
   border-color: black;
   font-family: fantasy;
   
-  /* margin-bottom: 70px; */
+  margin-bottom: 70px;
   box-shadow: 5px 5px 5px 2px black;
 }
 
@@ -85,12 +85,14 @@ canvas {
   left: 0;
   width: 100%;
   height: 100%;
+  
 
 }
 
  .foreground {
   position: relative;
   z-index: 1; 
+  top: 140px;
   
 
   
