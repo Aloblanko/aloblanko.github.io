@@ -41,16 +41,12 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color:var(--text-color);
+  color: var(--text-color);
   text-align: center;
   padding: 14px 16px;
   /* text-decoration: none; */
-  font-size: 1.4rem; 
+  font-size: 1.4rem;
   text-decoration: none;
-
- 
-  
-
 }
 
 /* color  on hover */
@@ -58,9 +54,9 @@ body {
   background-color: var(--primary1);
   color: var(--text-color);
 
-   text-decoration: line-through;
-   text-decoration-thickness: 3px;
-   text-decoration-color:var(--primary1) ;
+  text-decoration: line-through;
+  text-decoration-thickness: 3px;
+  text-decoration-color: var(--primary1);
 }
 
 /* highlight the current page */
@@ -68,20 +64,15 @@ body {
   background-color: var(--primary1);
   color: var(--text-color);
   text-decoration-thickness: 3px;
-  text-decoration-color:var(--primary1) ;
-  
- 
+  text-decoration-color: var(--primary1);
 }
 
 /*  hamburger/bars Icon verstecken */
 .topnav .icon {
   display: none;
- 
 }
 
-
 /* Styles für den Header */
-
 
 .aboutmetext h1 {
   font-size: 2.8em;
@@ -90,18 +81,15 @@ h1 span {
   color: var(--primary1);
 }
 .header_text {
-  
   display: flex;
   flex-direction: column;
   flex-wrap: wrap-reverse;
   padding-top: 50px;
   color: var(--text-color);
-  
-
 }
 
 .text-content {
-font-size: 1.2em;
+  font-size: 1.2em;
 }
 /* bewirkt das mein about me text und die überschrift etwas abstand zum rand bekommt  */
 .aboutmetext {
@@ -111,25 +99,23 @@ font-size: 1.2em;
 /* styles für das bild im kreis  */
 
 .circle-back {
- 
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  
 }
 
 .circle {
-
+  width: 350px;
+  height: 350px;
   background-color: #a8a7a3;
   border-radius: 50%;
-  margin: auto ;
+  margin: auto;
   border: solid 3px var(--primary1);
 }
 
 img {
-  width: 350px;
-  height: 350px;
- 
+  height: 100%;
+  width: 100%;
   border-radius: 50%;
   object-fit: contain;
 }
@@ -139,13 +125,14 @@ img {
 .skill-cards-container {
   display: flex;
   flex-direction: row;
-  /* flex: 1; */
+  justify-content: center;
+  align-items: center;
 }
 
 .skill-card {
   display: flex;
   flex-direction: column;
-  
+
   background-color: var(--secondary2);
   color: var(--text-color);
   border: 1px solid var(--primary2);
@@ -154,12 +141,12 @@ img {
   margin: 20px;
   font-size: 1.4rem;
   text-align: center;
-
-  /* flex: 1; */
 }
+
+/* Skill style  */
 .skill-card li {
   display: flex;
-  justify-content:center ;
+  justify-content: center;
   list-style-type: none;
   margin-top: 0.7rem;
 }
@@ -173,7 +160,24 @@ img {
   height: 35%;
   padding: 1rem;
   font-size: 1.7rem;
- 
+}
+
+/* Stil für die Scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color: var(--text-color);
+}
+
+/* Stil für den Scrollbalken */
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary1);
+  border-radius: 3px;
+}
+
+/* Stil für den Scrollbalken bei hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary2);
 }
 
 /* responsiveness  */
@@ -203,6 +207,11 @@ img {
     display: block;
     text-align: left;
   }
+  .skill-cards-container {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -212,7 +221,6 @@ img {
   .skill-cards-container {
     display: flex;
     flex-direction: column;
-    margin-right: 40px;
   }
 }
 
@@ -223,10 +231,5 @@ img {
   .skill-cards-container {
     display: flex;
     flex-direction: column;
-  }
-  .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
