@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Albert Rusch</title>
+    <link rel="stylesheet" href="./src/css/main-style.css" />
+    <script
+      src="https://kit.fontawesome.com/3bd1bd07ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <div class="spacer" id="home"></div>
+      <div class="header_text">
+        <nav class="navbar">
+          <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">Start</a>
+            <a href="#aboutme">About me</a>
+            <a href="#skills">Skills</a>
+
+            <a href="#projects">Projects</a>
+ 
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa-sharp fa-solid fa-bars"></i>
+            </a>
+          </div>
+        </nav>
+          
+       
+     
+        <div class="aboutmetext">
+          <h1>
+            Albert Rusch,
+            <br />
+             <div class="spacer" id="aboutme"></div>
+            <span> Webdeveloper</span>
+          </h1>
+
+          <div class="text-content">
+            <p>
+              My name is Albert Rusch and I am a motivated frontend developer
+              who is always eager to learn new things. I have a friendly and
+              warm personality that helps me connect with people from all walks
+              of life. As a goal-oriented individual, I am constantly striving
+              to achieve excellence in everything I do. I have a passion for
+              solving problems and finding creative solutions to complex
+              challenges. This has helped me become a skilled developer in HTML,
+              CSS, and JavaScript. In addition, I have experience working with
+              React, a powerful front-end library that has become the standard
+              for building modern web applications. While I am self-sufficient
+              and able to work independently, I also value collaboration and
+              teamwork. I believe that by working together, we can achieve great
+              things and create better solutions than we could alone.
+             
+            </p>
+          </div>
+        </div>
+      </div> 
+      <div class="circle-back">
+          <div class="circle">
+            <img
+              src="..//Portfolio_Albert-Rusch/src/img/IMG_3017[3368].JPG"
+              alt="portrait-bild"/>
+            
+          </div>
+        </div>
+    </header>
+    <main>
+   
+       <div class="spacer" id="skills"></div>
+      <section>
+        <div class="skill-cards-container">
+          <div class="skill-card">
+            <h2>Front-End</h2>
+ 
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h2>Back-End</h2>
+
+            <ul>
+              <li>Bootstrap</li>
+              <li>Foundation</li>
+              <li>Only CSS</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h2>Other</h2>
+
+            <ul>
+              <li>Node.js</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="spacer" id="projects"></div>
+      <section>
+        <h2>Projects</h2>
+        
+      </section>
+
+
+    </main>
+    <footer></footer>
+  </body>
+</html>
