@@ -4,8 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Albert Rusch</title>
+
+    <meta
+      name="description"
+      content="Willkommen auf meiner personalisierten Portfolio-Webentwicklungsseite. Hier finden Sie alle Informationen über meine Fähigkeiten, Erfahrungen und Projekte."
+    />
+    <meta name="author" content="Albert Rusch" />
+    <meta
+      name="keywords"
+      content="Albert Rusch, Webentwicklung, Web-developing, Portfolio, "
+    />
+    <meta name="robots" content="index,follow" />
+    <title>Albert Rusch, WebDev</title>
     <link rel="stylesheet" href="./src/css/main-style.css" />
+    <link rel="icon" href="./src/img/devblue.png" />
+
     <script
       src="https://kit.fontawesome.com/3bd1bd07ae.js"
       crossorigin="anonymous"
@@ -24,35 +37,35 @@
 
   <body>
     <header>
-      <div class="spacer" id="home"></div>
       <div class="header_text">
         <nav class="navbar">
           <div class="topnav" id="myTopnav">
-            <a href="#home" class="active">Start</a>
+            <a href="#home" class="active">aloBlanko</a>
             <a href="#aboutme">About me</a>
             <a href="#skills">Skills</a>
 
             <a href="#projects">Projects</a>
- 
+            <a href="https://github.com/Aloblanko" title="@AloBlanko auf Github" target="_blank">Github <i class="fa-brands fa-github" style="color: #ffffff;"></i>
+            </a>
+
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">
               <i class="fa-sharp fa-solid fa-bars"></i>
             </a>
           </div>
         </nav>
-          
-       
-     
+        <div class="spacer" id="home"></div>
         <div class="aboutmetext">
           <h1>
             Albert Rusch,
             <br />
-             <div class="spacer" id="aboutme"></div>
-            <span> Webdeveloper</span>
-          </h1>
 
+            <span> Webdeveloper</span>
+             <div class="spacer" id="aboutme"></div>
+          </h1>
+         
           <div class="text-content">
             <p>
-              My name is Albert Rusch and I am a motivated frontend developer
+              My name is Albert Rusch and I am a motivated frontend developer from Germany,
               who is always eager to learn new things. I have a friendly and
               warm personality that helps me connect with people from all walks
               of life. As a goal-oriented individual, I am constantly striving
@@ -65,63 +78,176 @@
               and able to work independently, I also value collaboration and
               teamwork. I believe that by working together, we can achieve great
               things and create better solutions than we could alone.
-             
             </p>
           </div>
         </div>
-      </div> 
+      </div>
+      <div class="spacer" id="skills"></div>
       <div class="circle-back">
-          <div class="circle">
-            <img
-              src="..//Portfolio_Albert-Rusch/src/img/IMG_3017[3368].JPG"
-              alt="portrait-bild"/>
-            
-          </div>
+        <div class="circle">
+          <img
+            src="..//Portfolio_Albert-Rusch/src/img/IMG_3017[3368].JPG"
+            alt="portrait-bild"
+          />
         </div>
+      </div>
     </header>
     <main>
-   
-       <div class="spacer" id="skills"></div>
-      <section>
+      <section class="skill-section">
+        <h2>My Skills</h2>
         <div class="skill-cards-container">
           <div class="skill-card">
-            <h2>Front-End</h2>
- 
+            <div class="skill-card-head">
+              <i class="fa-brands fa-html5" style="color: #ffffff"></i>
+
+              <h2>Front-End</h2>
+            </div>
+
             <ul>
               <li>HTML</li>
               <li>CSS</li>
               <li>JavaScript</li>
-            </ul>
-          </div>
-
-          <div class="skill-card">
-            <h2>Back-End</h2>
-
-            <ul>
               <li>Bootstrap</li>
-              <li>Foundation</li>
-              <li>Only CSS</li>
             </ul>
           </div>
 
           <div class="skill-card">
-            <h2>Other</h2>
+            <div class="skill-card-head">
+              <i class="fa-solid fa-code" style="color: #ffffff"></i>
+
+              <h2>Back-End</h2>
+            </div>
 
             <ul>
               <li>Node.js</li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-card-head">
+              <i
+                class="fa-solid fa-screwdriver-wrench"
+                style="color: #ffffff"
+              ></i>
+              <h2>Other</h2>
+            </div>
+
+            <ul>
+              <li>VS Code</li>
+              <li>Github</li>
+              <li>Git</li>
+              <li></li>
             </ul>
           </div>
         </div>
       </section>
 
       <div class="spacer" id="projects"></div>
-      <section>
+      <section class="project-prev">
         <h2>Projects</h2>
-        
+        <div class="link-preview">
+          <a
+            href="https://aloblanko.github.io/MyProjectRemote/"
+            target="_blank"
+          >
+            <img
+              src="./src/img/Snake-preview.png"
+              alt="Website-preview-snake-game"
+            />
+            <div class="preview-content">
+              <h3>Retro Game</h3>
+              <p>
+                I created a Retro Snake Game using the HTML5 Canvas element.
+                This was one of my first projects, and I pieced together the
+                necessary parts of the code to make it work. The game is a
+                classic iteration of the popular Snake game from the 1970s. The
+                objective is to guide the snake to eat the food on the screen,
+                while avoiding collisions with the snake's own
+                tail. The snake's movement is controlled using the arrow keys on
+                the keyboard. The game increases in difficulty as the snake
+                grows longer and the speed increases. The player can earn points
+                by eating the food, and the game ends when the snake collides
+                with the wall or its own tail. Overall, the game was a fun
+                project to work on, and it allowed me to experiment with the
+                Canvas element and game development in HTML5.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="link-preview">
+          <a href="https://aloblanko.github.io/" target="_blank">
+            <img
+              src="./src/img/Shuffle-preview.png"
+              alt="Website-preview-shuffle-button"
+            />
+            <div class="preview-content">
+              <h3>Shuffle Button</h3>
+              <p>
+                My first website was a simple one-page site with a Shuffle
+                Button feature that I implemented using JavaScript, even though
+                I didn't know a single line of code in the language. The Shuffle
+                Button was designed to randomly select a name from a list of
+                names that were pre-defined in the code. This was helpful when I
+                needed to randomly select a person for a task or an event.
+                Although the code was simple, it was a big accomplishment for me
+                at the time, as I had never worked with JavaScript before. This
+                project sparked my interest in web development and inspired me
+                to learn more about programming and the potential of the web.
+                Looking back on this project, I am proud of what I was able to
+                accomplish with limited knowledge and resources. It taught me
+                the importance of experimenting and trying new things, and it
+                inspired me to continue learning and growing as a developer.
+              </p>
+            </div>
+          </a>
+        </div>
+        <div class="link-preview">
+          <a
+            href="https://sbasel.github.io/projekt-Interanbieter/"
+            target="_blank"
+          >
+            <img
+              src="./src/img/Offer-section-preview.png"
+              alt="Website-preview-offer-section"
+            />
+            <div class="preview-content">
+              <h3>Offer Section</h3>
+
+              <p>
+                One of my early attempts at web design involved creating a
+                mobile service offers section that featured responsive cards.
+                These cards were designed to react and move slightly when users
+                hovered over them or selected them, similar to the design of
+                well-known mobile service providers. Each card represented a
+                different mobile service offer, and they were designed to be
+                responsive to different screen sizes and devices. This was
+                achieved using CSS media queries and flexible layout techniques.
+                The cards themselves were designed using a combination of HTML,
+                CSS, and JavaScript. They featured eye-catching graphics, bold
+                text, and clear calls to action. The hover and selection effects
+                were achieved using animations and transitions.
+                Overall, this project was a fun challenge that taught me a lot
+                about responsive web design and how to create engaging and
+                interactive user interfaces. It also helped me to refine my
+                design skills and experiment with new techniques and
+                technologies.
+              </p>
+            </div>
+          </a>
+        </div>
       </section>
 
-
+      
     </main>
-    <footer></footer>
+    <footer class="footer">
+      <div class="footer-inner">
+        <ul>
+          <li><a href="#"> Impressum</a></li>
+          <li><a href="#">&copy; Hamburg 2023</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>
