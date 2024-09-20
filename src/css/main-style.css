@@ -77,8 +77,9 @@ body {
 /* Styles für den Header */
 
 .aboutmetext h1 {
-  font-size: 3em;
+  font-size: 3.5em;
   margin-left: 10px;
+  padding-bottom: 30px;
 
 }
 h1 span {
@@ -123,8 +124,8 @@ h1 span {
 }
 
 .circle {
-  width: 350px;
-  height: 350px;
+  width: 450px;
+  height: 450px;
   background-color: #a8a7a3;
   border-radius: 50%;
   margin: auto;
@@ -136,7 +137,9 @@ h1 span {
   height: 100%;
   width: 100%;
   border-radius: 50%;
-  object-fit: contain;
+  object-fit:cover;
+  object-position:0%;
+
 }
 
 /* Styles für die Skills-Karten */
@@ -145,7 +148,8 @@ h1 span {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
+  
 }
 
 .skill-card {
@@ -155,7 +159,7 @@ h1 span {
   color: var(--text-color);
   border: solid var(--secondary2);
   width: 100%;
-  height: 300px;
+  height: 530px;
   margin: 20px;
   font-size: 1.4rem;
   text-align: center;
@@ -165,6 +169,8 @@ h1 span {
 .skill-card li {
   display: flex;
   justify-content: center;
+  text-align: left;
+  padding-left: 20px;
   list-style-type: none;
   margin-top: 0.7rem;
 }
@@ -196,6 +202,9 @@ h1 span {
 }
 
 /* projects  */
+.preview-content {
+  padding: 15px;
+}
 
 .project-prev {
   display: flex;
@@ -207,18 +216,21 @@ h1 span {
   color: var(--text-color);
   display: flex;
   justify-content: center;
-  font-size: 2.5em;
+  font-size: 3em;
 }
 .project-prev div a img {
   border: solid var(--secondary2);
   height: auto;
   width: 470px;
   object-fit:cover;
-  margin-right: 1em;
+  margin: 1em;
+  
+
 }
 .link-preview {
   display: flex;
   flex-direction: row;
+  padding: 15px;
 }
 .link-preview h3 {
   color: var(--primary1);
