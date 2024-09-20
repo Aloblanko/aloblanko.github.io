@@ -23,10 +23,15 @@ body {
   width: 100%;
 }
 
-.bodycontainer {
-  width: auto;
-}
 
+.bodycontainer {
+  display: flex;
+  justify-content: center; /* Horizontale Zentrierung */
+  align-items: center;     /* Vertikale Zentrierung */
+  min-height: 100%;       /* Volle Höhe des Viewports */
+  margin: 0;
+  
+}
 
 
 /* Styles für die Navbar */
@@ -110,6 +115,7 @@ h1 span {
   /* margin: 1em; */
   padding-left:5px;
   margin-right: 5px;
+
   
  
 }
@@ -167,7 +173,7 @@ h1 span {
   width: 100%;
   height: 530px;
   margin: 20px;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
@@ -176,7 +182,7 @@ h1 span {
   display: flex;
   justify-content: center;
   text-align: left;
-  padding-left: 20px;
+ 
   list-style-type: none;
   margin-top: 0.7rem;
 }
