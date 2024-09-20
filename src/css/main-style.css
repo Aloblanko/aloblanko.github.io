@@ -18,10 +18,16 @@ body {
   font-family: "poppins";
   font-style: italic;
   font-weight: 500;
-
+  
   background-color: var(--background-color);
   width: 100%;
 }
+
+.bodycontainer {
+  width: auto;
+}
+
+
 
 /* Styles für die Navbar */
 
@@ -315,7 +321,10 @@ h1 span {
 
 /* responsiveness  */
 
-@media screen and (max-width: 861px) {
+@media screen and (max-width: 961px) {
+  body {
+    width: 100%;
+  }
   .project-prev a {
     display: flex;
     flex-direction: column-reverse;
@@ -323,7 +332,13 @@ h1 span {
   .project-prev div a img {
    
     margin-top: 1em;
+    margin-left: 10em;
   
+  }
+  .link-preview h3 {
+    color: var(--primary1);
+    font-size: 1.5em;
+    padding-bottom: 7px;
   }
 }
 
@@ -357,6 +372,18 @@ h1 span {
     flex-direction: column;
     margin: 2rem;
   }
+  .project-prev div a img {
+    width: 310px;
+    margin-top: 1em;
+    margin-left: 1em;
+  
+  }
+
+  .link-preview h3 {
+    color: var(--primary1);
+    font-size: 1.5em;
+    padding-bottom: 7px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -374,7 +401,14 @@ h1 span {
   .project-prev div a img {
     width: 310px;
     margin-top: 1em;
+    margin-left: 1em;
   
+  }
+
+  .link-preview h3 {
+    color: var(--primary1);
+    font-size: 1.5em;
+    padding-bottom: 7px;
   }
 }
 
@@ -386,5 +420,102 @@ h1 span {
     display: flex;
     flex-direction: column;
   }
+  .project-prev a {
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 1em;
+  }
+  .project-prev div a img {
+    
+    margin-top: 0.5em;
+    margin-left: 0em;
+    width: 100%;
+    
+    
   
+  }
+  .aboutmetext h1 {
+    font-size: 2em;
+    margin-left: 10px;
+    padding-bottom: 10px;
+  
+  }
+  h1 span {
+    color: var(--primary1);
+  }
+
+  
+  .text-content {
+    font-size: 1em;
+    width: 95%;
+    margin-left: 10px;
+  }
+
+  .aboutmetext {
+    /* margin: 1em; */
+    padding-left:10px;
+    margin-right: 10px;
+    
+   
+  }
+
+  .circle {
+    width: 250px;
+    height: 250px;
+    background-color: #a8a7a3;
+    border-radius: 50%;
+    margin: auto;
+    border: solid 3px var(--primary1);
+    margin-bottom: 2em;
+  }
+  
+  .circle img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit:cover;
+    object-position:0%;
+  
+  }
+
+  .bodycontainer {
+    display: flex;
+    justify-content: center; /* Horizontale Zentrierung */
+    align-items: center;     /* Vertikale Zentrierung */
+    min-height: 100vh;       /* Volle Höhe des Viewports */
+    margin: 0;
+    
+  }
+  .link-preview {
+    padding: 0;
+  }
+  
+  .link-preview {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+  .link-preview h3 {
+    color: var(--primary1);
+    font-size: 1.5em;
+    padding-bottom: 7px;
+  }
+  .link-preview a {
+    display: flex;
+    justify-content: start;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0em;
+    margin: 0.5em;
+    font-size: 1em;
+  }
+  .project-prev h2 {
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+    padding-bottom: 50px;
+  }
+ 
+
 }
