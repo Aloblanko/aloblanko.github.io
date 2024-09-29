@@ -448,7 +448,7 @@ h1 span {
   }
   .aboutmetext h1 {
     font-size: 2em;
-    margin-left: 10px;
+    margin-left: 15px;
     padding-bottom: 35px;
   
   }
@@ -463,10 +463,11 @@ h1 span {
     margin-left: 10px;
   }
 
-  .aboutmetext {
+  .aboutmetext p {
     /* margin: 1em; */
     padding-left:10px;
     margin-right: 10px;
+    font-size: 1em;
     
    
   }
@@ -496,7 +497,7 @@ h1 span {
     align-items: center;     /* Vertikale Zentrierung */
     min-height: 100%;       /* Volle Höhe des Viewports */
     margin: 0;
-    padding: 0;
+    padding-left: 15px;
     
   }
   .link-preview {
@@ -510,7 +511,7 @@ h1 span {
   }
   .link-preview h3 {
     color: var(--primary1);
-    font-size: 1.5em;
+    font-size: 1.7em;
     padding-bottom: 7px;
   }
   .link-preview a {
