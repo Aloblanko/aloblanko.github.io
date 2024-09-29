@@ -91,7 +91,7 @@ body {
 .aboutmetext h1 {
   font-size: 3.5em;
   margin-left: 10px;
-  padding-bottom: 30px;
+  padding-bottom: 35px;
 
 }
 h1 span {
@@ -101,7 +101,7 @@ h1 span {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap-reverse;
-  padding-top: 50px;
+  padding-top: 30px;
   color: var(--text-color);
  
 }
@@ -422,6 +422,7 @@ h1 span {
 @media screen and (max-width: 480px) {
   body {
     width: 100%;
+    padding: 0;
   }
   .skill-cards-container {
     display: flex;
@@ -491,6 +492,7 @@ h1 span {
     align-items: center;     /* Vertikale Zentrierung */
     min-height: 100vh;       /* Volle Höhe des Viewports */
     margin: 0;
+    padding: 0;
     
   }
   .link-preview {
