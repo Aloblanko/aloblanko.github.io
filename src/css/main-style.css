@@ -183,10 +183,12 @@ h1 span {
   display: flex;
   justify-content: center;
   text-align: left;
- 
+  width: 90%;
   list-style-type: none;
   margin-top: 0.7rem;
 }
+
+
 .skill-section h2 {
   color: var(--text-color);
   display: flex;
@@ -427,6 +429,8 @@ h1 span {
   .skill-cards-container {
     display: flex;
     flex-direction: column;
+    text-align: center;
+    
   }
   .project-prev a {
     display: flex;
@@ -445,7 +449,7 @@ h1 span {
   .aboutmetext h1 {
     font-size: 2em;
     margin-left: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 35px;
   
   }
   h1 span {
@@ -455,7 +459,7 @@ h1 span {
   
   .text-content {
     font-size: 1em;
-    width: 95%;
+    width: 90%;
     margin-left: 10px;
   }
 
@@ -490,7 +494,7 @@ h1 span {
     display: flex;
     justify-content: center; /* Horizontale Zentrierung */
     align-items: center;     /* Vertikale Zentrierung */
-    min-height: 100vh;       /* Volle Höhe des Viewports */
+    min-height: 100%;       /* Volle Höhe des Viewports */
     margin: 0;
     padding: 0;
     
@@ -502,7 +506,7 @@ h1 span {
   .link-preview {
     display: flex;
     flex-direction: row;
-    padding: 15px;
+    padding: 10px;
   }
   .link-preview h3 {
     color: var(--primary1);
@@ -523,7 +527,7 @@ h1 span {
     display: flex;
     justify-content: center;
     font-size: 2.5em;
-    padding-bottom: 50px;
+    padding-bottom: 35px;
   }
  
 
