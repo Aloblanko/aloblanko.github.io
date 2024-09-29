@@ -497,7 +497,7 @@ h1 span {
     align-items: center;     /* Vertikale Zentrierung */
     min-height: 100%;       /* Volle Höhe des Viewports */
     margin: 0;
-    padding-left: 15px;
+    padding-left: 10px;
     
   }
   .link-preview {
