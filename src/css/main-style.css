@@ -18,6 +18,7 @@ body {
   font-family: "poppins";
   font-style: italic;
   font-weight: 500;
+  padding-left:20px ;
   
   background-color: var(--background-color);
   width: 100%;
@@ -30,6 +31,7 @@ body {
   align-items: center;     /* Vertikale Zentrierung */
   min-height: 100%;       /* Volle Höhe des Viewports */
   margin: 0;
+  padding-left: 20px;
   
 }
 
